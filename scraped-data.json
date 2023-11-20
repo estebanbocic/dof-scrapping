@@ -1,10 +1,98 @@
 [
   {
-    "data1": "Fecha",
-    "data2": "Valor"
+    "dof_date": "Fecha",
+    "dof_exchange": "Valor"
   },
   {
-    "data1": "17-11-2023",
-    "data2": "17.270800"
+    "dof_date": "17-10-2023",
+    "dof_exchange": "17.956800"
+  },
+  {
+    "dof_date": "18-10-2023",
+    "dof_exchange": "17.909700"
+  },
+  {
+    "dof_date": "19-10-2023",
+    "dof_exchange": "18.244000"
+  },
+  {
+    "dof_date": "20-10-2023",
+    "dof_exchange": "18.287300"
+  },
+  {
+    "dof_date": "23-10-2023",
+    "dof_exchange": "18.234300"
+  },
+  {
+    "dof_date": "24-10-2023",
+    "dof_exchange": "18.121800"
+  },
+  {
+    "dof_date": "25-10-2023",
+    "dof_exchange": "18.284200"
+  },
+  {
+    "dof_date": "26-10-2023",
+    "dof_exchange": "18.312200"
+  },
+  {
+    "dof_date": "27-10-2023",
+    "dof_exchange": "18.217800"
+  },
+  {
+    "dof_date": "30-10-2023",
+    "dof_exchange": "18.075200"
+  },
+  {
+    "dof_date": "31-10-2023",
+    "dof_exchange": "18.064000"
+  },
+  {
+    "dof_date": "01-11-2023",
+    "dof_exchange": "18.036800"
+  },
+  {
+    "dof_date": "03-11-2023",
+    "dof_exchange": "17.930500"
+  },
+  {
+    "dof_date": "06-11-2023",
+    "dof_exchange": "17.411700"
+  },
+  {
+    "dof_date": "07-11-2023",
+    "dof_exchange": "17.530800"
+  },
+  {
+    "dof_date": "08-11-2023",
+    "dof_exchange": "17.509700"
+  },
+  {
+    "dof_date": "09-11-2023",
+    "dof_exchange": "17.501700"
+  },
+  {
+    "dof_date": "10-11-2023",
+    "dof_exchange": "17.488800"
+  },
+  {
+    "dof_date": "13-11-2023",
+    "dof_exchange": "17.748000"
+  },
+  {
+    "dof_date": "14-11-2023",
+    "dof_exchange": "17.613800"
+  },
+  {
+    "dof_date": "15-11-2023",
+    "dof_exchange": "17.391700"
+  },
+  {
+    "dof_date": "16-11-2023",
+    "dof_exchange": "17.338700"
+  },
+  {
+    "dof_date": "17-11-2023",
+    "dof_exchange": "17.270800"
   }
 ]

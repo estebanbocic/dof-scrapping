@@ -5,7 +5,7 @@ const fs = require('fs'); // Import the fs module for file operations
 
 
 // Define the URL you want to scrape
-const url = 'https://dof.gob.mx/indicadores_detalle.php?cod_tipo_indicador=158&dfecha=17%2F11%2F2023&hfecha=17%2F11%2F2023#gsc.tab=0'; // Replace with the URL you want to scrape
+const url = 'https://dof.gob.mx/indicadores_detalle.php?cod_tipo_indicador=158&dfecha=17%2F10%2F2023&hfecha=17%2F11%2F2023#gsc.tab=0'; // Replace with the URL you want to scrape
 
 // Create an instance of axios with custom agent that trusts SSL certificates
 const agent = new https.Agent({
@@ -40,13 +40,13 @@ function scrapeAndFormatAsJSON(html) {
       const columns = $(row).find('td'); // Assuming table cells are in <td> elements
   
       // Extract data from each column as needed
-      const data1 = $(columns[0]).text().trim(); // Replace [0] with the appropriate column index
-      const data2 = $(columns[1]).text().trim(); // Replace [1] with the appropriate column index
+      const dof_date = $(columns[0]).text().trim(); // Replace [0] with the appropriate column index
+      const dof_exchange = $(columns[1]).text().trim(); // Replace [1] with the appropriate column index
   
       // Create an object for each row and store the data
       const rowData = {
-        data1,
-        data2
+        dof_date,
+        dof_exchange
       };
   
       // Push the row data to the result array
